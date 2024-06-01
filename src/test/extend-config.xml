@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extentreports>
+    <configuration>
+<!--        standard, dark-->
+        <theme>standard</theme>
+
+        <encoding>UFT-8</encoding>
+
+        <protocol>https</protocol>
+
+        <documentTitle>Cucumber Framework</documentTitle>
+
+        <reportName>Cucumber Report</reportName>
+
+        <dateFormat>dd-MM-yyyy</dateFormat>
+
+        <timeFormat>HH:mm:ss</timeFormat>
+
+        <scripts>
+            <![CDATA[
+        $(document).ready(function() {
+
+        });
+      ]]>
+        </scripts>
+
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+
+      ]]>
+        </styles>
+
+    </configuration>
+</extentreports>
